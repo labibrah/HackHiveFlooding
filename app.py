@@ -29,11 +29,12 @@
 
 import streamlit as st
 import cohere
+import os
 
 st.title("💬 Disaster Aid Chatbot")
 
 # API Key
-API_KEY = "n2u2Bg9qC5xmu0G5TrW7IZNS2n1dHlzBFSm8vFIn"
+API_KEY = st.secrets["COHERE_API_KEY"]
 client = cohere.ClientV2(api_key=API_KEY)
 
 # System message for chatbot behavior
