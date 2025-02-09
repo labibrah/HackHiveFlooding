@@ -2,7 +2,7 @@ import streamlit as st
 import cohere
 import requests
 
-st.title("💬 Disaster Aid Chatbot")
+st.title("💬 A.Iert (The Disaster Aid Chatbot)")
 
 # Securely store API key
 API_KEY = st.secrets["COHERE_API_KEY"]
@@ -53,7 +53,7 @@ def fetch_weather_alerts(area_code):
 
             return f"🚨 **{event} ALERT for {selected_state} ({area_code})** 🚨\n\n📰 {headline}\n\n📌 {description}\n\n🛑 **Safety Instructions:** {instruction}"
         else:
-            return f"✅ No active weather alerts in {selected_state} ({area_code}). Stay safe! 🌤️ If you need general safety advice, just ask."
+            return f"✅ No active advisory alerts in {selected_state} ({area_code}). Stay safe! 🌤️ If you need general safety advice, just ask."
 
     except Exception as e:
         return f"⚠️ Failed to fetch weather updates: {str(e)}"

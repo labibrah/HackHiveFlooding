@@ -1,7 +1,7 @@
-# A.lert (Disaster Aid Chatbot)
+# 💬 A.Iert (Disaster Aid Chatbot)
 
 ## Overview
-A.lert is an AI-powered chatbot that provides real-time disaster alerts and safety information, specifically designed to help rural communities prepare for natural disasters like floods.
+A.Iert (pronunced uh-lurt) is an AI-powered chatbot that provides real-time disaster alerts and safety information, specifically designed to help rural communities prepare for natural disasters like floods.
 
 ## Features
 - 🌍 **Live Weather Alerts** – Fetches real-time disaster updates from the National Weather Service.
